@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body{
+  margin: 0;
+  padding:0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #8f0b0b; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    color: #faf3c5;
+    font-family: "Cormorant Garamond", serif;
+  }
+  
+  .logo-img {
+    width: 55px; 
+    margin-right: 5px; 
+    cursor: pointer;
+    
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: center; 
+    flex: 1; 
+  }
+  
+  .navigation button {
+    margin: 0 15px; 
+    padding: 10px 20px; 
+    border: none;
+    background-color: transparent; 
+    cursor: pointer; 
+    border-radius: 25px; 
+    transition: background-color 0.3s; 
+    font-size: 20px;
+    color: #faf3c5;
+
+  }
+  
+  .navigation button:hover {
+    background-color: #faf3c5; 
+    color: #8f0b0b;;
+  }
+  
+  
+  .login-button{
+    border: none;
+    font-size: 20px;
+    background:none;
+    color: #faf3c5; ;
+    margin-right: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+
+  .account-button{
+    border: none;
+    font-size: 20px;
+    background:none;
+    color: #faf3c5; 
+    margin-right: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .account-button:hover{
+   background-color: #faf3c5;
+   color: #8f0b0b;
+
+  }
